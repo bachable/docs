@@ -1,14 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
-  "name": "Product Guide",
-  "description": "Step-by-step guides for every product—platform setup, analytics, and integrations in one place.",
+  "name": "Bachable Handbook",
+  "description": "Everything you need to know to create beautiful scores in LilyPond using bachable.io",
   "colors": {
-    "primary": "#166E3F",
+    "primary": "#F54900",
     "light": "#26BD6C",
     "dark": "#166E3F"
   },
-  "favicon": "/favicon.ico",
+  "favicon": {
+    "light": "/favicon.ico",
+    "dark": "/favicon.ico"
+  },
   "icons": {
     "library": "lucide"
   },
@@ -93,5 +96,9 @@
       "x": "https://x.com/yourcompany",
       "linkedin": "https://linkedin.com/company/yourcompany"
     }
+  },
+  "appearance": {
+    "default": "system",
+    "strict": false
   }
 }
